@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Element de l'arbre -->
+<!ELEMENT biblio (etudiant)+ >
+<!ELEMENT etudiant (livre)+ >
+<!ELEMENT livre EMPTY >
+
+<!-- Attributs de l'element etudiant  -->
+<!ATTLIST etudiant 
+            code CDATA #REQUIRED 
+            nom CDATA  #REQUIRED
+            prenom CDATA #REQUIRED
+            age CDATA #IMPLIED   
+         >
+         
+<!-- Attributs de l 'element livre  -->  
+
+<!ATTLIST livre 
+               id CDATA #REQUIRED
+               titre CDATA #REQUIRED
+               datePret CDATA #REQUIRED
+               rendu (OUI|NON) 'NON'
+              >
+
+
+
+
+

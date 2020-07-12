@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblio SYSTEM "file:/C:/Users/bedril.moussakat/Desktop/XML/exercice/biblio.dtd">
+<biblio>
+    <etudiant code="E1" nom="A" prenom="PA">
+        <livre id="L1" titre="JAVA" datePret="2010-03-12"/>
+        <livre id="L2" titre="XML" datePret="2010-05-10" rendu="OUI"/>
+    </etudiant>
+    <etudiant code="E2" nom="B" prenom="PB" age="12">
+        <livre id="L1" titre="JAVA" datePret="2010-04-12" rendu="OUI"/>
+        <livre id="L3" titre="PYTHON" datePret="2010-05-12" rendu="OUI"/>
+    </etudiant>
+    <etudiant code="E3" nom="C" prenom="PC" age="16">
+        <livre id="L4" titre="NodeJs" datePret="2010-09-04"/>
+    </etudiant>
+</biblio>
