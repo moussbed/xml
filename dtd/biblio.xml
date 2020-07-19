@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE biblio SYSTEM "file:/C:/Users/bedril.moussakat/Desktop/XML/exercice/biblio.dtd">
+<!DOCTYPE biblio SYSTEM "/home/bedril/development/technologie-xml/xml/dtd/biblio.dtd">
 <biblio>
     <etudiant code="E1" nom="A" prenom="PA">
         <livre id="L1" titre="JAVA" datePret="2010-03-12"/>
