@@ -26,12 +26,18 @@
       <td><xsl:value-of select="@titre" />  </td>
       <td><xsl:value-of select="@date" />  </td>
       <td><xsl:value-of select="@rendu" />  </td>
-
       </tr>
       </xsl:for-each>
+        <tr>
+          <td>Nbr livre emprunte</td>
+          <td colspan="3"><xsl:value-of select="count(livre[@rendu='OUI'])"/></td>
+        </tr>
+        
       </table>
+        
       </xsl:for-each>
      </ul> 
+      
     </body>
   </html>
 </xsl:template>

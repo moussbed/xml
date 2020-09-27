@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE biblio SYSTEM "/home/bedril/development/technologie-xml/xml/dtd/biblio.dtd">
-<?xml-stylesheet type="text/xsl" href="/home/bedril/development/technologie-xml/xml/dtd/biblio.xsl"?>
+<!DOCTYPE biblio SYSTEM "E:/repository/autres/xml/dtd/biblio.dtd">
+<!--<?xml-stylesheet type="text/xsl" href="E:/repository/autres/xml/dtd/biblio.xsl"?>-->
  <biblio>
-    <etudiant code="E1" nom="A" prenom="PA">
+     <etudiant code="E1" nom="A" prenom="PA">
         <livre id="L1" titre="JAVA" datePret="2010-03-12"/>
         <livre id="L2" titre="XML" datePret="2010-05-10" rendu="OUI"/>
     </etudiant>
