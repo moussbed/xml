@@ -3,22 +3,14 @@
 <!--<?xml-stylesheet type="text/xsl" href="E:/repository/autres/xml/dtd/biblio.xsl"?>-->
 <biblio>
     <etudiant code="E1" nom="A" prenom="PA">
-        <livre id="1" titre="JAVA" datePret="2010-03-12" />
-        <livre id="2" titre="XML" datePret="2010-05-10" rendu="true"/>
+        <livre id="1" titre="JAVA" datePret="2010-30-12"/>
+        <livre id="2" titre="XML" datePret="2010-05-10" />
     </etudiant>
     <etudiant code="E2" nom="B" prenom="PB" age="12">
-        <livre id="1" titre="JAVA" datePret="2010-04-12" rendu="false"/>
-        <livre id="3" titre="PYTHON" datePret="2010-05-12" rendu="true"/>
+        <livre id="1" titre="JAVA" datePret="2010-04-12" rendu="OUI"/>
+        <livre id="3" titre="PYTHON" datePret="2010-05-12" rendu="NON"/>
     </etudiant>
     <etudiant code="E3" nom="C" prenom="PC" age="16">
         <livre id="4" titre="NodeJs" datePret="2010-09-04"/>
     </etudiant>
 </biblio>
-
-<xsd:element name="td" />
-
-
-
-<td>
- bonjour
-</td>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/Users/bedrilmoussakat/development/projects/xml/xsd/biblio.xsd">
+    <etudiant code="ID-1" nom="Bedril" prenom="Moss">
+        <livre id="1" titre="JAVA" datePret="2020-12-23"/>
+    </etudiant>
+    <etudiant code="ID-2" nom="Bedril" prenom="Moss" email="mouus@mouus">
+        <livre id="1" titre="JAVA" datePret="2020-12-23" rendu="OUI"/>
+    </etudiant>
+</biblio>
